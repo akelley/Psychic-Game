@@ -61,7 +61,7 @@ document.onkeypress = function(event){
     }
 
     else {
-    	document.querySelector("#answer").innerHTML = "Non-alphabetic character or redundant selection made. Please select try again!";
+    	document.querySelector("#answer").innerHTML = "Non-alphabetic or redundant character. Please try again!";
     	return;
     }
 }   
